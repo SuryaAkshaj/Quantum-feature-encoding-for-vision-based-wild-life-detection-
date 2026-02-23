@@ -1,0 +1,15 @@
+torch>=2.0.0
+torchvision
+pennylane>=0.27
+pennylane-lightning>=0.27
+pandas
+numpy
+scikit-learn
+matplotlib
+ultralytics>=8.0.0
+wilds
+flask
+streamlit
+opencv-python
+tqdm
+pyyaml

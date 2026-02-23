@@ -1,0 +1,28 @@
+data:
+  use_wilds: true
+  download_dataset: true
+  batch_size: 32
+  num_workers: 4
+  max_precompute_samples: 20000
+
+model:
+  resnet_output_dim: 512
+  reduced_dim: 128
+  n_qubits: 4
+  vqc_layers: 3
+
+training:
+  epochs_baseline: 30
+  epochs_vqc: 10
+  lr_baseline: 1e-3
+  lr_vqc: 1e-3
+  device: "cuda"   # change to "cuda" if GPU available
+
+
+paths:
+  precomputed_dir: "precomputed"
+  models_dir: "models"
+  yolov8_weights: "yolov8n.pt"
+  uploads_dir: "web/uploads"
+  crops_dir: "web/crops"
+  resnet_save: "models/resnet_backbone.pth"
