@@ -232,7 +232,7 @@ pyyaml
 Both models receive identical 16-dimensional PCA-reduced features extracted from ResNet-50. Results are compared using accuracy, precision, recall, and F1-score.
 
 ---
-
-## 📄 License
+#updated by janvigit status
+## 📄 License 
 
 This project is for research and educational purposes.
